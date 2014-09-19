@@ -1,6 +1,6 @@
 'use strict';
 
-var rol = require('../lib/rol.js');
+var Rol = require('../lib/rol.js');
 
 /*
   ======== A Handy Little Nodeunit Reference ========
@@ -22,15 +22,12 @@ var rol = require('../lib/rol.js');
     test.ifError(value)
 */
 
-exports['awesome'] = {
+exports['Rol'] = {
   setUp: function(done) {
-    // setup here
     done();
   },
-  'no args': function(test) {
-    test.expect(1);
-    // tests here
-    test.equal(rol.awesome(), 'awesome', 'should be awesome.');
+  'tests': function(test) {
+    test.ok(true);
     test.done();
   },
 };
