@@ -1,4 +1,4 @@
-# rol [![Build Status](https://secure.travis-ci.org/sackio/rol.png?branch=master)](http://travis-ci.org/ben/rol)
+# rol [![Build Status](https://secure.travis-ci.org/sackio/rol.png?branch=master)](http://travis-ci.org/sackio/rol)
 
 Simple, powerful, and extendable access control and mediation in Node and the browser (with no dependencies). Use it to drop in access control rules, scopes, and interceptors to your Javascript objects. Includes templates to extend rol with common access design patterns.
 
