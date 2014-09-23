@@ -449,6 +449,14 @@ exports['Rol'] = {
       return test.ok(name2 === 'here');
     }]);
 
+    Globals.iObj = {};
+    Globals.obj.interface(Globals.iObj, Globals.obj);
+
+    Globals.iObj.asyncHello('Frank', function(name, name2){
+      test.ok(name === 'stopped');
+      return test.ok(name2 === 'here');
+    });
+
     test.done();
   }
 };

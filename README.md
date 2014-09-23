@@ -177,6 +177,7 @@ Rol can be forced to behave asynchronously with the method `rolSync`. Equally, R
 * **Rol.rules** - Array of rules applied when `obj.rol` is called
 * **Rol.addRule(rule, index)** - adds rule to Rol instance. Optional index can be included (otherwise rule is added as lowest priority). Rule can be a function or object (see above)
 * **Rol.removeRule(label|index)** - removes any rule matching `label` (as string or regular expression), or removes rule at index if argument is numeric
+* **Rol.interface(iObj, rObj, options)** - uses `iObj` to interface with the `rol` version of `rObj`. Each property of `iObj` (not previously defined) is defined to call the same property on `rObj` using `rol`. Binding an `iObj` method will use `this` as the access object.
 
 ## License
 Copyright (c) 2014 Ben Sack
