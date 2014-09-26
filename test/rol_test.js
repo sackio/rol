@@ -457,6 +457,11 @@ exports['Rol'] = {
       return test.ok(name2 === 'here');
     });
 
+    Globals.iObj = {};
+    Globals.obj.interface(Globals.iObj, Globals.obj, {'keys': ['hello']});
+    test.ok(Globals.iObj.hello);
+    test.ok(!Globals.iObj.asyncHello);
+
     test.done();
   }
 };

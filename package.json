@@ -1,7 +1,7 @@
 {
   "name": "rol",
   "description": "Simple, powerful, and extendable access control in Node and the browser",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "https://github.com/sackio/rol",
   "author": {
     "name": "Ben Sack",
